@@ -6,6 +6,10 @@ unless somebody called `.pause()`.
 This module has the same signature as
 [through](https://npmjs.com/package/through).
 
+[![browser support](https://ci.testling.com/substack/resumer.png)](http://ci.testling.com/substack/resumer)
+
+[![build status](https://secure.travis-ci.org/substack/resumer.png)](http://travis-ci.org/substack/resumer)
+
 # example
 
 ``` js
