@@ -1,10 +1,11 @@
+var through = require('through');
 var nextTick = typeof setImmediate !== 'undefined'
     ? setImmediate
     : process.nextTick
 ;
 
-module.exports = function () {
-    var tr = through();
+module.exports = function (write, end) {
+    var tr = through(write, end);
     tr.pause();
     var resume = tr.resume;
     var pause = tr.pause;

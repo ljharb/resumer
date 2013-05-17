@@ -8,6 +8,22 @@ This module has the same signature as
 
 # example
 
+``` js
+var resumer = require('resumer');
+createStream().pipe(process.stdout);
+
+function createStream () {
+    var stream = resumer();
+    stream.queue('beep boop\n');
+    return stream;
+}
+```
+
+```
+$ node example/resume.js
+beep boop
+```
+
 # methods
 
 # install
