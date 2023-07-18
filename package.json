@@ -7,22 +7,22 @@
         "through": "~2.3.4"
     },
     "devDependencies": {
-        "tap": "~0.4.0",
-        "tape": "~1.0.2",
-        "concat-stream": "~0.1.1"
+        "concat-stream": "^0.1.1",
+        "tape": "^5.6.5"
     },
     "scripts": {
-        "test": "tap test/*.js"
+        "test": "tape 'test/**/*.js'"
     },
-    "testling" : {
-        "files" : "test/*.js",
-        "browsers" : [
+    "testling": {
+        "files": "test/*.js",
+        "browsers": [
             "ie/6..latest",
             "chrome/20..latest",
             "firefox/10..latest",
             "safari/latest",
             "opera/11.0..latest",
-            "iphone/6", "ipad/6"
+            "iphone/6",
+            "ipad/6"
         ]
     },
     "repository": {
