@@ -1,6 +1,6 @@
 'use strict';
 
-var through = require('through');
+var through = require('@ljharb/through');
 
 var nextTick = typeof setImmediate === 'undefined'
 	? process.nextTick
