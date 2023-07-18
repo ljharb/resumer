@@ -1,5 +1,5 @@
 {
-    "name": "resumer",
+    "name": "@ljharb/resumer",
     "version": "0.0.0",
     "description": "a through stream that starts paused and resumes on the next tick",
     "main": "index.js",
@@ -27,9 +27,9 @@
     },
     "repository": {
         "type": "git",
-        "url": "git://github.com/substack/resumer.git"
+        "url": "git://github.com/ljharb/resumer.git"
     },
-    "homepage": "https://github.com/substack/resumer",
+    "homepage": "https://github.com/ljharb/resumer",
     "keywords": [
         "through",
         "stream",
