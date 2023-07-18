@@ -1,8 +1,11 @@
-var resumer = require('../');
-createStream().pipe(process.stdout);
+'use strict';
 
-function createStream () {
-    var stream = resumer();
-    stream.queue('beep boop\n');
-    return stream;
+var resumer = require('../');
+
+function createStream() {
+	var stream = resumer();
+	stream.queue('beep boop\n');
+	return stream;
 }
+
+createStream().pipe(process.stdout);
