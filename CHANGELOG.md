@@ -5,6 +5,15 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v0.0.1](https://github.com/ljharb/resumer/compare/v0.0.0...v0.0.1) - 2023-07-17
+
+### Commits
+
+- [meta] add scripts, dev deps, linting; switch from travis to GHA [`ddf267c`](https://github.com/ljharb/resumer/commit/ddf267c051fb1756e403929cebe383fafb069f43)
+- [meta] rename package to scoped [`e63afa4`](https://github.com/ljharb/resumer/commit/e63afa4679e28c86e018c92aad51372b54492e5e)
+- [Dev Deps] update `concat-stream`, `tape` [`b3ef087`](https://github.com/ljharb/resumer/commit/b3ef08792acf6c0cf0632c8ee5923a6c740f6946)
+- [Deps] use `@ljharb/through` instead of `through` [`b80960c`](https://github.com/ljharb/resumer/commit/b80960ced2935c23baa4be90f1d65d5ef0abc27b)
+
 ## v0.0.0 - 2023-07-17
 
 ### Commits
