@@ -6,7 +6,8 @@ var nextTick = typeof setImmediate === 'undefined'
 	? process.nextTick
 	: setImmediate;
 
-module.exports = function (write, end) {
+/** @type {(write: Parameters<through>[0], end: Parameters<through>[1]) => ReturnType<through>} */
+module.exports = function resumer(write, end) {
 	var tr = through(write, end);
 	tr.pause();
 	var resume = tr.resume;
@@ -15,11 +16,13 @@ module.exports = function (write, end) {
 
 	tr.pause = function () {
 		paused = true;
+		// @ts-expect-error https://github.com/microsoft/TypeScript/issues/57164
 		return pause.apply(this, arguments);
 	};
 
 	tr.resume = function () {
 		paused = false;
+		// @ts-expect-error https://github.com/microsoft/TypeScript/issues/57164
 		return resume.apply(this, arguments);
 	};
 

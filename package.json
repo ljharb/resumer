@@ -8,6 +8,7 @@
 		"prepublishOnly": "safe-publish-latest",
 		"prepublish": "not-in-publish || npm run prepublishOnly",
 		"lint": "eslint --ext=js,mjs .",
+		"postlint": "tsc -p .",
 		"pretest": "npm run lint",
 		"tests-only": "nyc tape 'test/**/*.js'",
 		"test": "npm run tests-only",
@@ -20,6 +21,7 @@
 	},
 	"devDependencies": {
 		"@ljharb/eslint-config": "^21.1.0",
+		"@types/node": "^20.11.7",
 		"aud": "^2.0.4",
 		"auto-changelog": "^2.4.0",
 		"concat-stream": "^1.6.2",
@@ -28,7 +30,8 @@
 		"npmignore": "^0.3.1",
 		"nyc": "^10.3.2",
 		"safe-publish-latest": "^2.0.0",
-		"tape": "^5.7.4"
+		"tape": "^5.7.4",
+		"typescript": "^5.4.0-dev.20240126"
 	},
 	"testling": {
 		"files": "test/*.js"
