@@ -5,6 +5,17 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v0.1.0](https://github.com/ljharb/resumer/compare/v0.0.1...v0.1.0) - 2024-01-25
+
+### Commits
+
+- [patch] add types [`8aa2f54`](https://github.com/ljharb/resumer/commit/8aa2f54a37a848b11e91f089891c46ae7d06aafd)
+- [meta] update license text so GitHub can identify it [`d3b4604`](https://github.com/ljharb/resumer/commit/d3b4604a473623e8594d1a192d8110e6369e2cbd)
+- [Dev Deps] update `concat-stream`, `tape` [`8f5f559`](https://github.com/ljharb/resumer/commit/8f5f5591058e099b6b0de29898712af526a5a3a2)
+- [Dev Deps] update `aud`, `npmignore`, `tape` [`aab7103`](https://github.com/ljharb/resumer/commit/aab71039776d36379a466cd8adda24b999b4879d)
+- [Deps] update `@ljharb/through` [`05c8993`](https://github.com/ljharb/resumer/commit/05c8993096d999f89e93e9a5277e48fbc4b64062)
+- [meta] add `sideEffects` flag [`106b1f0`](https://github.com/ljharb/resumer/commit/106b1f0cb7e72778ff4fee4e0e3695c4e814b2ad)
+
 ## [v0.0.1](https://github.com/ljharb/resumer/compare/v0.0.0...v0.0.1) - 2023-07-17
 
 ### Commits

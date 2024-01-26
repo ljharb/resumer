@@ -1,6 +1,6 @@
 {
 	"name": "@ljharb/resumer",
-	"version": "0.0.1",
+	"version": "0.1.0",
 	"description": "a through stream that starts paused and resumes on the next tick",
 	"main": "index.js",
 	"sideEffects": false,
