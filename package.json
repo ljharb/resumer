@@ -16,7 +16,7 @@
 		"postversion": "auto-changelog && git add CHANGELOG.md && git commit --no-edit --amend && git tag -f \"v$(node -e \"console.log(require('./package.json').version)\")\""
 	},
 	"dependencies": {
-		"@ljharb/through": "^2.3.9"
+		"@ljharb/through": "^2.3.12"
 	},
 	"devDependencies": {
 		"@ljharb/eslint-config": "^21.1.0",
