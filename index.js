@@ -6,7 +6,7 @@ var nextTick = typeof setImmediate === 'undefined'
 	? process.nextTick
 	: setImmediate;
 
-/** @type {(write: Parameters<through>[0], end: Parameters<through>[1]) => ReturnType<through>} */
+/** @type {import('./resumer')} */
 module.exports = function resumer(write, end) {
 	var tr = through(write, end);
 	tr.pause();
