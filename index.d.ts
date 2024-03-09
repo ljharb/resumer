@@ -1,8 +1,8 @@
 import through = require('@ljharb/through');
 
-declare function Resumer(
+declare function resumer(
     write?: Parameters<typeof through>[0],
     end?: Parameters<typeof through>[1]
 ): ReturnType<typeof through>;
 
-export = Resumer;
+export = resumer;
