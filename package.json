@@ -23,6 +23,7 @@
 	"devDependencies": {
 		"@arethetypeswrong/cli": "^0.15.1",
 		"@ljharb/eslint-config": "^21.1.0",
+		"@ljharb/tsconfig": "^0.1.1",
 		"@types/node": "^20.11.25",
 		"aud": "^2.0.4",
 		"auto-changelog": "^2.4.0",
