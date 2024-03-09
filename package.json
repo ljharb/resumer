@@ -18,7 +18,7 @@
 		"postversion": "auto-changelog && git add CHANGELOG.md && git commit --no-edit --amend && git tag -f \"v$(node -e \"console.log(require('./package.json').version)\")\""
 	},
 	"dependencies": {
-		"@ljharb/through": "^2.3.12"
+		"@ljharb/through": "^2.3.13"
 	},
 	"devDependencies": {
 		"@arethetypeswrong/cli": "^0.15.1",
