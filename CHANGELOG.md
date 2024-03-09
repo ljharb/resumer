@@ -5,6 +5,15 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v0.1.3](https://github.com/ljharb/resumer/compare/v0.1.2...v0.1.3) - 2024-03-09
+
+### Commits
+
+- [types] use shared tsconfig [`ace3782`](https://github.com/ljharb/resumer/commit/ace3782bc7835d30cd4a3bc9c30babadb9f1ceea)
+- [Robustness] use `call-bind` rather than `.apply` [`f43f860`](https://github.com/ljharb/resumer/commit/f43f860083eb3472a00dd470c0f2afecfc22f356)
+- [Dev Deps] update `@types/node`, `tape`, `typescript`; add `@arethetypeswrong/cli` [`95580e2`](https://github.com/ljharb/resumer/commit/95580e2932087bee6b0bccf3454df156d3b6a67b)
+- [Deps] update `@ljharb/through` [`c421b6f`](https://github.com/ljharb/resumer/commit/c421b6f03c8ee4914ef746ed08e6331cfaa2acdd)
+
 ## [v0.1.2](https://github.com/ljharb/resumer/compare/v0.1.1...v0.1.2) - 2024-01-26
 
 ### Commits
